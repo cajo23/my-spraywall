@@ -39,7 +39,7 @@
   font-family: var(--font-mono);
 }
 
-.grid {
+/*.grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
   max-width: 100%;
@@ -71,7 +71,7 @@
   line-height: 1.5;
   max-width: 30ch;
   text-wrap: balance;
-}
+}*/
 
 .center {
   display: flex;
