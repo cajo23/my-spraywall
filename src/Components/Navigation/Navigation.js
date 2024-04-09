@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 const LINKS = [
     {href: '/', text: 'Home', description: 'My project idea'},
-    {href: '/about', text: 'About', description: 'About this project'},
+    {href: '/about-old', text: 'About (old)', description: 'About this project'},
+    {href: '/about-new', text: 'About (new)', description: 'About this project'},
     {href: '/tools', text: 'Tools', description: 'A few tools I built'},
 ]
 
