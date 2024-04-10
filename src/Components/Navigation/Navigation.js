@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 const LINKS = [
     {href: '/', text: 'Home', description: 'My project idea'},
-    {href: '/about-old', text: 'About (old)', description: 'About this project'},
-    {href: '/about-new', text: 'About (new)', description: 'About this project'},
-    {href: '/tools', text: 'Tools', description: 'A few tools I built'},
+    {href: '/explore-climbs', text: 'Explore', description: 'Explore routes'},
+    {href: '/build-climbs', text: 'Build', description: 'Build your routes'},
+    {href: '/share-climbs', text: 'Share', description: 'Share your routes'},
 ]
 
 export default function Navigation() {

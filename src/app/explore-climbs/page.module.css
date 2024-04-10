@@ -1,0 +1,15 @@
+/* page.module.css */
+.imageContainer {
+    display: flex;
+    justify-content: space-between; /* Justera utrymmet mellan bilderna */
+}
+
+.climbs {
+    /* Stilar för din första bild */
+    margin-right: 10px; /* Lägg till margin mellan bilderna */
+}
+
+.anotherImage {
+    /* Stilar för din andra bild */
+    margin-left: 10px; /* Lägg till margin mellan bilderna */
+}

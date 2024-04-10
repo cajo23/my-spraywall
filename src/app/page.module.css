@@ -39,6 +39,11 @@
   font-family: var(--font-mono);
 }
 
+.codeTitle{
+  font-weight: 700;
+  font-family: var(--font-mono);
+  font-size: 2rem;
+}
 /*.grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));

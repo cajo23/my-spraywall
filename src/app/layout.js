@@ -14,12 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        
+
         <main className={styles.main}>
         <Navigation />
           {children}
         </main>
-      
+
       </body>
     </html>
   );

@@ -5,45 +5,35 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <>
-
-      
-    
-
-      <div className={styles.description}>
+    <div className={styles.description}>
         <p>
-          
-          <code className={styles.code}>Johanna Carlström</code>
+           <code className={styles.code}>C4 Spray Wall</code>
         </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    </div>
 
       <div className={styles.center}>
         <Image
           className={styles.logo}
           src="/climbing-holds.png"
-          alt="Next.js Logo"
+          alt="Climbing-holds Logo"
           width={100}
           height={100}
           priority
         />
+
+        {/*Rubrik*/}
+        <h1>
+           <code className={styles.codeTitle}>C4 Spray Wall</code>
+        </h1>
       </div>
 
+        {/*Text*/}
+      <p>
+          <code className={styles.codeText}>
+            This project is made by climbers for climbers <br/>
+            Navigate in the meny to explore features <br/>
+          </code>
+      </p>
       
     </>
   );
