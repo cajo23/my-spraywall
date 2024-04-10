@@ -1,0 +1,8 @@
+.title{
+    margin-bottom: 1rem;
+}
+
+.textContainer p {
+    margin-bottom: 20px; /* Justera marginalen nedåt för att skapa avstånd mellan texten och bilderna */
+    display: inline; /*Så <p inte tar upp onödig plats*/
+  }

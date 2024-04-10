@@ -5,23 +5,33 @@ export default function ExploreClimbs(){
 return (
 
     <>
-    <h1>Explore routes</h1>
-    <p>The user can click on the images of user-generated climbing routes <br/>
-    </p>
+    <div className={styles.title}>
+      <h1>Explore routes</h1>
+    </div>
     
-    <div className={styles.imageContainer}>
-      <Image className={styles.climbs}
-        src="/EXPLOREclimbs.png" // Ange sökvägen till din bild
-        alt="User-generated climbs" // Ange en alternativ text för tillgänglighet
-        width={400} // Ange bredden på bilden
-        height={650} // Ange höjden på bilden
-      />
-      <Image className={styles.anotherImage}
-        src="/EXPLOREclimbs.png" // Ange sökvägen till din bild
-        alt="User-generated climbs" // Ange en alternativ text för tillgänglighet
-        width={400} // Ange bredden på bilden
-        height={650} // Ange höjden på bilden
-      />
+
+    <div className={styles.imageContainer}> {/*Ta bort om text nr 2 ej flyttas till höger*/}
+      <div className={styles.textContainer}>
+      <p>The user can click on the images of user-generated<br/> climbing routes 
+      </p>
+      </div>
+    
+      <div className={styles.imageWrapper}>
+        <Image className={styles.climbs}
+          src="/EXPLOREclimbs.png" // Ange sökvägen till din bild
+          alt="User-generated climbs" // Ange en alternativ text för tillgänglighet
+          width={400} // Ange bredden på bilden
+          height={650} // Ange höjden på bilden
+          priority
+        />
+        
+        <Image className={styles.anotherImage}
+          src="/PowerUpRoute.png" // Ange sökvägen till din bild
+          alt="User-generated climbs" // Ange en alternativ text för tillgänglighet
+          width={400} // Ange bredden på bilden
+          height={650} // Ange höjden på bilden
+        />
+      </div>
     </div>
   </>
 

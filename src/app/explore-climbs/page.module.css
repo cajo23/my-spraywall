@@ -1,15 +1,35 @@
-/* page.module.css */
+
+.title{
+    margin-bottom: 1rem;
+}
+
 .imageContainer {
     display: flex;
-    justify-content: space-between; /* Justera utrymmet mellan bilderna */
+    flex-direction: column; /* Justera utrymmet mellan bilderna */
 }
 
-.climbs {
-    /* Stilar för din första bild */
-    margin-right: 10px; /* Lägg till margin mellan bilderna */
+.climbs, .anotherImage {
+    border: solid whitesmoke 10px;
+    border-radius: 5px;
+    margin-right: 20px; /* Lägg till margin mellan bilderna */
 }
 
-.anotherImage {
-    /* Stilar för din andra bild */
-    margin-left: 10px; /* Lägg till margin mellan bilderna */
+.imageWrapper{
+    display: flex;
+   
 }
+
+.textContainer p {
+  margin-bottom: 20px; /* Justera marginalen nedåt för att skapa avstånd mellan texten och bilderna */
+  display: inline; /*Så <p inte tar upp onödig plats*/
+}
+
+.secondTextContainer{
+    margin-top: 20px;
+}
+
+.imageContainer {
+  display: flex; /* Använd flexbox för att placera bilderna bredvid varandra */
+  flex-direction: column;
+}
+
