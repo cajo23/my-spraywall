@@ -44,6 +44,17 @@
   font-family: var(--font-mono);
   font-size: 2rem;
 }
+
+.codeText{
+  font-size: 15px;
+}
+
+.projectInfo{
+  margin-top: 1rem;
+  font-size: 15px;
+}
+
+
 /*.grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));

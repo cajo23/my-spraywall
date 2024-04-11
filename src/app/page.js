@@ -31,10 +31,18 @@ export default function Home() {
       <p>
           <code className={styles.codeText}>
             This project is made by climbers for climbers <br/>
-            Navigate in the meny to explore features <br/>
+            Navigate in the meny to explore features <br/><br/>
           </code>
       </p>
       
+      <p>
+          <code className={styles.projectInfo}>
+            With this webbapplication, climbers can create, share and access <br/>
+            user-generated spray wall climbing routes, within their local gym. <br/>
+            Regardless if you are craving tough challanges or just started, <br/>
+            there is something for everyone.
+          </code>
+      </p>
     </>
   );
 }

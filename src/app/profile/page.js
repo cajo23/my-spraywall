@@ -5,7 +5,7 @@ export default function ProfilePage(){
     return (
     <>
 
-<div className={styles.title}><h1>Build routes</h1></div>
+<div className={styles.title}><h1>Profile Features</h1></div>
 
 <div className={styles.textContainer}>
     <p>

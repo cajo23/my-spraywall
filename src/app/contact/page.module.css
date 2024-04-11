@@ -3,3 +3,10 @@
     border: solid whitesmoke 5px;
 }
 
+  /* Tablet and Smaller Desktop */
+  @media (min-width: 701px) and (max-width: 1662px) {
+    .contactContainer{
+       margin-top: 1rem;
+    }
+  
+    }
