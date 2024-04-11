@@ -17,8 +17,6 @@ export default function BuildClimbs(){
             </p>
         </div>
         
-
-       
         <Image className={styles.climbs}
           src="/NEWCLIMB.png" // Ange sökvägen till din bild
           alt="User-generated climbs" // Ange en alternativ text för tillgänglighet

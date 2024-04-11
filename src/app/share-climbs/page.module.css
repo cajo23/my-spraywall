@@ -1,9 +1,0 @@
-.toolLink{
-    font-size: 1.2rem;
-    color: rgb(208, 123, 13);
-    transition: color ease-in-out 0.3s;
-}
-
-.toolLink:hover{
-    color: orange;
-}

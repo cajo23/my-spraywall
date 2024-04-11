@@ -5,7 +5,7 @@ const LINKS = [
     {href: '/', text: 'Home', description: 'My project idea'},
     {href: '/explore-climbs', text: 'Explore', description: 'Explore routes'},
     {href: '/build-climbs', text: 'Build', description: 'Build your routes'},
-    {href: '/share-climbs', text: 'Share', description: 'Share your routes'},
+    {href: '/profile', text: 'Profile', description: 'Profile features'},
 ]
 
 export default function Navigation() {

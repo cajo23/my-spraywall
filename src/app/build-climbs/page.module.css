@@ -18,12 +18,14 @@
       width: 200px;
       height: 320px;
     }
-  }
 
+    
   .title{
-      font-size: 10px;
-  }
+    font-size: 10px;
+}
 
-  .textContainer{
-      font-size: 12px;
+.textContainer{
+    font-size: 12px;
+}
+
   }

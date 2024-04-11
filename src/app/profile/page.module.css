@@ -1,0 +1,25 @@
+.title{
+    margin-bottom: 1rem;
+}
+
+.profile{
+    border: solid whitesmoke 10px;
+    border-radius: 5px;
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1662px) {
+    .profile {
+        width: 200px;
+        height: 320px;
+      }
+
+      .title{
+        font-size: 10px;
+    }
+
+    .textContainer{
+        font-size: 12px;
+    }
+  
+    }

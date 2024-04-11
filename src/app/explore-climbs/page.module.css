@@ -30,9 +30,8 @@
         width: 200px;
         height: 320px;
       }
-    }
 
-    .title{
+      .title{
         font-size: 10px;
     }
 
@@ -40,3 +39,6 @@
         font-size: 12px;
     }
   
+    }
+
+    
