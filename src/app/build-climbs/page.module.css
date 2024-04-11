@@ -6,3 +6,24 @@
     margin-bottom: 20px; /* Justera marginalen nedåt för att skapa avstånd mellan texten och bilderna */
     display: inline; /*Så <p inte tar upp onödig plats*/
   }
+
+  .climbs{
+    border: solid whitesmoke 10px;
+    border-radius: 5px;
+  }
+
+  /* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1662px) {
+  .climbs{
+      width: 200px;
+      height: 320px;
+    }
+  }
+
+  .title{
+      font-size: 10px;
+  }
+
+  .textContainer{
+      font-size: 12px;
+  }

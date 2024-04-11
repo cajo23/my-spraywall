@@ -3,12 +3,9 @@
     margin-bottom: 1rem;
 }
 
-.imageContainer {
-    display: flex;
-    flex-direction: column; /* Justera utrymmet mellan bilderna */
-}
 
-.climbs, .anotherImage {
+
+.climbs, .secondClimb {
     border: solid whitesmoke 10px;
     border-radius: 5px;
     margin-right: 20px; /* Lägg till margin mellan bilderna */
@@ -16,7 +13,6 @@
 
 .imageWrapper{
     display: flex;
-   
 }
 
 .textContainer p {
@@ -28,8 +24,19 @@
     margin-top: 20px;
 }
 
-.imageContainer {
-  display: flex; /* Använd flexbox för att placera bilderna bredvid varandra */
-  flex-direction: column;
-}
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1662px) {
+    .climbs, .secondClimb {
+        width: 200px;
+        height: 320px;
+      }
+    }
 
+    .title{
+        font-size: 10px;
+    }
+
+    .textContainer{
+        font-size: 12px;
+    }
+  
